@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 
-DB_URL = 'postgresql://postgres:Interra-it.95@partsinvdb.cne8gyi0q0wh.us-west-1.rds.amazonaws.com:5432/inital_db'
+DB_URL = 'CLOUD_URL_OF_DB'
 
 def get_db_connection():
     try:
